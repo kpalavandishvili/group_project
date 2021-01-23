@@ -1,0 +1,33 @@
+# Follow the instructions provided below:
+
+Step 1: create a new branch with name "develop_yourName" (replace "yourName" by your name).
+        checkout to new branch if you haven't already.
+
+Step 2: create a new file with name "file2.txt"
+
+step 3: Add some text in first three lines of file2.txt and commit those changes.
+
+step 4: create a new file with name "file3.txt" and add some text in first three lines.
+
+step 5: Without committing the changes of step 4, create a new branch with name "extra_feature"
+        checkout to "extra_feature" branch if you haven't already.
+
+step 6: If you encountered an error regarding unstagged changes, stash those changes with a message.
+
+step 7: checkout to "extra_feature" branch if you haven't already.
+
+step 8: change the text in line three of "file2.txt"
+        repeat step 2 and step 3 with new file name "file4.txt"
+
+step 9: checkout to "develop_yourName" branch.
+
+step 10: recover the previous changes from stash if any.
+
+step 11: merge "extra_feature" branch with "develop_yourName" branch.
+         manage merge conflicts if any.
+
+step 12: push "develop_yourName" branch to remote repository.
+
+step 13: create a pull request with "main" branch as base and add your team members for review.
+
+step 14: if you have finished then wait for other team members to finish all these steps.
